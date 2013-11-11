@@ -1,0 +1,25 @@
+{
+  "name": "editor-stash",
+  "version": "0.0.0",
+  "description": "Something Chris will edit",
+  "main": "lineWriter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freshteapot/editor-stash.git"
+  },
+  "keywords": [
+    "awesome",
+    "editor"
+  ],
+  "author": "Chris Williams",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/freshteapot/editor-stash/issues"
+  },
+  "dependencies": {
+    "lazy": "~1.0.11"
+  }
+}
