@@ -17,6 +17,7 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install screen
 
 sudo apt-get install -y default-jre
+sudo apt-get install -y vim
 ```
 
 #Get Logstash
