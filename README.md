@@ -1,5 +1,6 @@
 #Initial Setup
 
+```
 sudo -s
 apt-get -y update
 apt-get -y upgrade
@@ -14,7 +15,7 @@ sudo apt-get -y install nodejs
 
 
 sudo apt-get -y install screen
-
+```
 
 #Get Logstash
 wget "https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar"
