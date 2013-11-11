@@ -15,7 +15,23 @@ sudo apt-get -y install nodejs
 
 
 sudo apt-get -y install screen
+
+sudo apt-get install -y default-jre
 ```
 
 #Get Logstash
+```
+cd ~/
 wget "https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar"
+```
+
+To test logstash is working :)
+```
+java -jar ~/logstash-1.2.2-flatjar.jar agent -f /vagrant/config/logstash/basic.conf
+```
+
+Then paste
+```
+{"hello": "world"}
+```
+You should hopefully see some output where hello is a property under "line", for more information read ./config/logstash/basic.conf
