@@ -1,11 +1,10 @@
 #Initial Setup
 
 ```
-sudo -s
-apt-get -y update
-apt-get -y upgrade
-apt-get -y install git
-apt-get -y install curl python g++ make
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install git curl python g++ make screen default-jre vim
+```
 
 Ubuntu version before 12.10:
 ```
@@ -17,15 +16,10 @@ Ubuntu version from 12.10:
 sudo apt-get install -y software-properties-common
 ```
 
+```
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get -y install nodejs
-
-
-sudo apt-get -y install screen
-
-sudo apt-get install -y default-jre
-sudo apt-get install -y vim
 ```
 
 #Get Logstash
