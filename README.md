@@ -5,10 +5,18 @@ sudo -s
 apt-get -y update
 apt-get -y upgrade
 apt-get -y install git
-apt-get -y install curl
+apt-get -y install curl python g++ make
 
-sudo apt-get update
-sudo apt-get install -y python-software-properties python g++ make
+Ubuntu version before 12.10:
+```
+sudo apt-get install -y python-software-properties
+```
+
+Ubuntu version from 12.10:
+```
+sudo apt-get install -y software-properties-common
+```
+
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get -y install nodejs
